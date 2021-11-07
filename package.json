@@ -6,7 +6,9 @@
 	"type": "module",
 	"scripts": {
 		"start": "node index.js",
-		"dev": "nodemon index.js"
+		"dev": "nodemon index.js",
+		"server": "./node_modules/.bin/netlify-lambda server src",
+		"build": "./node_modules/.bin/netlify-lambda build src"
 	},
 	"keywords": [],
 	"author": "",
